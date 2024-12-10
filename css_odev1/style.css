@@ -1,0 +1,70 @@
+/* Base Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.h1 {
+    color: #ff6600;
+    margin-left: 10px;
+}
+.h2, .p, .a {
+    margin-left: 10px;
+}
+
+.img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.movies-box {
+    display: flex;
+}
+
+.movies-p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Logo */
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+}
+
