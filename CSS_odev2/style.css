@@ -1,0 +1,62 @@
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin: 0; 
+    padding: 0; 
+  }
+  
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.article1 {
+    display: grid;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.article2 {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.box1 {
+    width: 37.5%;
+    background-color: rgb(126,229,229) ;
+    display: grid;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+.box2 {
+    width: 25%;
+    background-color: rgb(112,204,204) ;
+    display: grid;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+.box3 {
+    width: 37.5%;
+    background-color: rgb(98,179,179) ;
+    display: grid;
+    justify-content: center;
+    font-size: 15px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
