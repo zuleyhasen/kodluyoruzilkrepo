@@ -1,0 +1,36 @@
+Soru-1:
+[22,27,16,2,18,6] -> Insertion Sort
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+Çözüm-1:
+Verilen örüntüye ait en küçük elemanı bulduk ve 2 ile 22 yer değiştirdik. [2,27,16,22,18,6]
+Sonraki en küçük 2. elemanımızı da bulduk, 6 ile 27 yer değiştirdik. [2,6,16,22,18,27]
+3. küçük eleman doğru sırada ve sonrakine geçilir.
+4. küçük elemanı bulduk 18 ile 22 yer değiştirdik. [2,6,18,22,27]
+
+
+
+Soru-2:
+Big-O gösterimini yazınız.
+
+Çözüm-2:
+n + n-1 + n-2 +....+ 1 = (n*(n-1))/2 = (n^2-n)/2= O(n^2) 
+
+
+
+Soru-3:
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki caselerden hangisinin kapsamına girer? Yazınız.
+
+Çözüm-3:
+Average case. Çünkü 18 sayısı dizinin ortasında yer alıyor.
+
+
+
+Soru-4:
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort a göre ilk 4 adımını yazınız.
+
+Çözüm-4:
+1-Adım -> En küçük sayı 2 dir. 2 ile 7 yer değiştirilir. [2,3,5,8,7,9,4,15,16]
+2-Adım -> 2. küçük sayı 3 dür. Sırasını koruruz.
+3-Adım -> 3. küçük sayı 4 dür. 4 ile 5 yer değiştirilir. [2,3,4,8,7,9,5,15,16]
+4-Adım -> 4. küçük sayı 5 dir. 5 ile 8 yer değiştirilir. [2,3,4,5,7,9,8,15,16]
